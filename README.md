@@ -1,4 +1,4 @@
-# OpenClassrooms Formation Développeur Web - Projet 2 : Dynamisez une page web avec des animations CSS
+# OpenClassrooms Formation Développeur Web - Projet 3 : Dynamisez une page web avec des animations CSS
 
 Projet n°3 de la formation Développeur Web chez OpenClassrooms
 
