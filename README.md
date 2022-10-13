@@ -1,7 +1,7 @@
-# Projets OpenClassrooms - Formation Développeur Web
+# OpenClassrooms Formation Développeur Web - Projet 2 : Transformez votre CV en site Web
 
-Hey salut, ici se sont les différents projets que j'ai pu faire durant ma formation chez OpenClassrooms
+Projet n°2 de la formation Développeur Web chez OpenClassrooms. (Le projet 1 n'était pas du développement)
 
-Chaque projet a sa branche
+Le but était de réaliser un CV en HTML/CSS à l'aide d'un modèle fourni.
 
-Bonne visite
+Le lien du site est ici : https://cedricocos.github.io/OC-Projet2-CV/

@@ -1,0 +1,557 @@
+	#cv
+	{
+		font-family: 'Raleway', sans-serif;
+		width: 850px;
+		display: flex;
+		flex-wrap: nowrap;
+		border: 1px;
+		border-style: solid;
+		border-color: grey;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#gauche
+	{
+	    margin-right: 5%;
+		background:#feca07;
+		display: flex;
+		position: relative;
+	    flex-direction: column;
+	    align-content: center;
+	    width: 30%;
+	}
+
+	.photo
+	{	
+		width: 300px;
+		top: 10px;
+		left: -44%;
+		position: relative;
+	}
+
+	.img
+	{
+		border-radius: 100%;
+		width: 50%;
+		margin-top: 10px;
+		border: 1px black solid;
+		box-shadow: 0px 0px 2px black;
+	}
+
+	.titregauche
+	{
+		text-align: center;
+		color: #feca07;
+		background-color: #404040;
+		display: block;
+		line-height: 30px;
+		font-size: 18px;
+	}
+
+	.titredroite
+	{
+		margin-left: 17px;
+	}
+
+	#main
+	{
+		height: 100%;
+		width: 65%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#contenu
+	{
+		margin-top: -180px;
+	}
+
+	.name1
+	{
+		font-size: 250%;
+	}
+
+	.name
+	{
+		color: orange;
+		font-weight: bold;
+	}
+
+	#contact1
+	{
+		margin-top: 200px;
+	}
+
+	.contact
+	{
+		font-size: 11px;
+		margin-left: 25px;
+	}
+
+	.aboutme
+	{
+		font-size: 12px;
+		margin-left: 25px;
+		margin-right: 25px;
+		line-height: 19px;
+	}
+
+	#loisirs
+	{
+		width: 100%;
+		position: absolute;
+		bottom: 2%;
+	}
+
+	
+
+	#loisirs .loisiric
+	{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.loisiric
+	{
+		margin-left: 8%;
+		margin-right: 8%;
+		font-size: 45px;
+	}
+
+	h1
+	{
+		margin-top: 60px;
+		font-weight: normal;
+		display: inline-block;
+	}
+
+	h2
+	{
+		font-size: 20px;
+	}
+
+	h4
+	{
+		color: #feca07;
+	}
+
+	.formation
+	{
+	    display: inline-block;
+	    vertical-align: top;
+	    margin-right: 2%;
+	    width: 500px;
+	}
+
+	.exppro
+	{
+	    display: inline-block;
+	    vertical-align: top;
+	    margin-right: 2%;
+	    width: 500px;
+	}
+
+	table
+	{
+		margin-top: 5px;
+		border-spacing: 15px;
+	}
+
+	.recommendations
+	{
+	    display: inline-block;
+	    vertical-align: top;
+	    margin-right: 2%;
+	}
+
+
+	hr
+	{
+		border: 0;
+		display: block;
+		border-top: 1px solid #feca07;
+	}
+
+	.date
+	{
+		font-size: 0.7em;
+		width: 150px;
+		vertical-align: top;
+		font-weight: bold; 
+	}
+
+	.soulign
+	{
+		text-decoration: underline;
+		text-decoration-color: #feca07;
+	}
+
+	.dev
+	{
+		margin-top: -22px;
+		margin-bottom: 70px;
+		font-size: 1.2em;
+	}
+
+	.reco
+	{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.reco1
+	{
+		width: 300px;
+		line-height: 20px;
+	}
+
+	.reco2
+	{
+		width: 200px;
+		line-height: 20px;
+	}
+
+	.reconame
+	{
+		font-weight: bold;
+		font-size: 0.9em;
+		margin: 0 auto;
+	}
+
+	.recodir, .recotel
+	{
+		font-weight: bold;
+		font-size: 0.8em;
+		margin: 0 auto;
+	}
+
+	.recomail
+	{
+		font-size: 0.9em;
+		margin: 0 auto;
+	}
+
+	#loisirs .fas
+	{
+		border-radius: 100%;
+		border: 1px black solid;
+		font-size: 30px;
+		width:50px;
+  		height:50px;
+  		text-align: center;
+  		margin: auto;
+  		line-height: 50px;
+	}
+
+	#main .fas
+	{
+		color: #feca07;
+	}
+
+	.descpro
+	{
+		font-size: 0.8em;
+	}
+
+	.point
+	{
+  		background:#bfd70e;
+ 	 	border-radius:50%;
+  		width:7px;
+  		height:7px;
+  		margin: 0 auto;
+  		margin-top: 5px;
+  	}
+
+  	.rond1
+  	{
+  		border-radius:50%;
+  		width:8px;
+  		height:8px;
+  		border: 1px solid #bfd70e;
+  		margin-top: 2px;
+  	}
+
+  	.tdpoint
+  	{
+  		width: 10px;
+  		vertical-align: top;
+  	}
+
+  	.rond3
+  	{
+  		background:#bfd70e;
+ 	 	border-radius:50%;
+  		width:6px;
+  		height:6px;
+  		margin: 0 auto;
+  		margin-top: 1px;
+  		margin-left: 1px;
+  	}
+
+  	.esp
+  	{
+  		line-height: 25px;
+  		font-size: 0.9em;
+  	}
+
+
+	
+
+
+/*RESPONSIVE TABLETTE*/
+
+@media only screen and (max-width: 870px){
+
+	body
+	{
+		margin: 0;
+	}
+	#cv
+	{
+		border: 0;
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	#gauche
+	{
+		width: 100%;
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		margin-right: auto;
+	}
+
+	#main
+	{
+		width: 100%;
+	}
+
+	.photo
+	{
+		background-color: #feca07; 
+		text-align: center;
+		position: static;
+		width: 100%;
+	}
+
+	.dev
+	{
+		text-align: center;
+		margin-top: -30px;
+		margin-bottom: 0;
+		background: #feca07;
+		line-height: 30px;
+	}
+
+	.titregauche
+	{
+		margin-top: 5px;
+	}
+
+	.img
+	{
+		width: 25%;
+		margin-top: 10px;
+	}
+
+	h1
+	{
+		text-align: center;
+		background-color: #feca07;
+		display: block;
+		margin-top: 180px;
+	}
+
+	.name
+	{
+		color: white;
+		margin-left: 0;
+	}
+
+	.soulign
+	{
+		text-decoration-color: white;
+	}
+
+	h2
+	{
+		text-align: center;
+	}
+
+	.formation
+	{
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.exppro
+	{
+	    margin: 0 auto;
+	    width: 100%;
+	}
+
+	.recommendations
+	{
+	    margin: auto;
+	    width: 100%;
+	}
+
+	.reco
+	{
+		line-height: normal;
+		margin-right: auto;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.reco1
+	{
+		margin-left: 10%;
+	}
+
+	.reco2
+	{
+		margin-right: 10%;
+	}
+
+	table
+	{
+		margin: auto;
+		width: 80%;
+	}
+
+	#loisirs
+	{
+		position: relative;
+		bottom: auto;
+		width: 34%;
+	}
+
+	#contact1
+	{
+		margin-top: 0;
+		width: 33%;
+	}
+
+	#aboutme1
+	{
+		width: 33%;
+	}
+
+	.reconame
+	{
+		margin: auto;
+	}
+
+	.recodir
+	{
+		margin: auto;
+	}
+
+	.recotel
+	{
+		margin: auto;
+	}
+
+	.recomail
+	{
+		margin: auto;
+	}
+
+
+/*RESPONSIVE TABLETTE*/
+
+@media only screen and (max-width: 550px){
+
+	.img
+	{
+		width: 30%;
+	}
+
+	table
+	{
+		width: 100%;
+	}
+
+	.name1
+	{
+		font-size: 200%;
+	}
+
+	.dev
+	{
+		font-size: 100%;
+	}
+
+	.titredroite
+	{
+		font-size: 80%;
+		margin-left: 0;
+	}
+
+	.titregauche
+	{
+		font-size: 13px;
+	}
+
+	table
+	{
+		font-size: 80%;
+	}
+
+	#loisirs .loisiric
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#loisirs
+	{
+		width: 20%;
+	}
+
+	#aboutme1
+	{
+		width: 57%;
+	}
+
+	.aboutme
+	{
+		font-size: 10px;
+		margin-top: -20px;
+	}
+
+	.contact
+	{
+		margin-left: 5px;
+	}
+
+	.reco
+	{
+		font-size: 13px;
+	}
+
+	.reco1
+	{
+		line-height: 15px;
+		margin-left: 10px;
+	}
+
+	.reco2
+	{
+		line-height: 15px;
+		margin-right: 10px;
+	}
+
+	.date
+	{
+		width: 120px;
+	}
+
+}
+}
