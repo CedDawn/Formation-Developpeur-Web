@@ -1,0 +1,9 @@
+.img
+{
+	width: 200px;
+}
+
+.form-control.error
+{
+	border-color: red;
+}

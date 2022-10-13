@@ -1,7 +1,8 @@
-# Projets OpenClassrooms - Formation Développeur Web
+# OpenClassrooms Formation Développeur Web - Projet 5 : Construisez un site e-commerce
 
-Hey salut, ici se sont les différents projets que j'ai pu faire durant ma formation chez OpenClassrooms
+Projet n°5 de la formation Développeur Web chez OpenClassrooms
 
-Chaque projet a sa branche
+Le but était de développer le Frontend d'une application en HTML/CSS et JS permettant d'acceder à une liste de produits,
+de les ajouter au panier et de confirmer la commande à l'aide d'un backend fourni et des routes API à respecter.
 
-Bonne visite
+Le lien du back à lancer avec node server : https://github.com/OpenClassrooms-Student-Center/JWDP5
