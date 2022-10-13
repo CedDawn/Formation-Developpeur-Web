@@ -1,0 +1,341 @@
+body
+{
+	margin: 0;
+}
+
+.menu2
+{
+	width: 1000px;
+	height: 1500px;
+	background-color: #fff5fe;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	box-shadow: 0px 0px 15px lightgrey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.titremenu
+{
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: -30px;
+	font-size: 2em;
+}
+
+.traits1
+{
+	content: "";
+	height: 5px;
+	width: 250px;
+	background-color: #c67412;
+}
+
+.traits2
+{
+	content: "";
+	height: 5px;
+	width: 250px;
+	background-color: #a56799;
+}
+
+.traits3
+{
+	content: "";
+	height: 5px;
+	width: 250px;
+	background-color: #6e4ccc;
+}
+
+.traittitre
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	width: 85%; 
+}
+
+.titre
+{
+	font-family: "Caffe Poster";
+	font-size: 5em;
+	margin-bottom: 100px;
+	margin-top: -50px;
+	background: -webkit-linear-gradient(left, #d8852e, #905bfd);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.soustitre
+{
+	font-size: 1.7em;
+	display: inline-block;
+  	padding: 10px;
+  	position: relative;
+}
+
+.soustitre:hover:after {
+  width:100%;
+  left: 0;
+}
+.soustitre:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 10;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  background: black;
+  transition: width 1s ease 0s, left 0.5s ease 0s;
+  width: 0;
+}
+
+.plat
+{
+	font-family: "Arial";
+	font-size: 1.5em;
+}
+
+.prix
+{
+	font-size: 2em;
+	text-align: right;
+}
+
+@font-face
+{
+	font-family: "Caffe Poster";
+	src: url("../../media/fonts/CaffePoster.ttf");
+}
+
+.menu
+{
+	width: 75%;
+	line-height: 70px;
+	margin-bottom: 50px;
+}
+
+.start
+{
+	color: #c67412;
+}
+
+.middle
+{
+	color: #a56799;
+}
+
+.end
+{
+	color: #6e4ccc;
+}
+
+@media only screen and (max-width: 1150px){
+
+	.menu2
+	{
+		height: 150%;
+		width: 90%;
+	}
+
+	.soustitre
+	{  
+	  	font-size: 1.5em;
+	} 
+
+	.titre
+	{
+		font-size: 3em;
+		margin-top: 50px;
+		margin-bottom: 40px;
+	}
+
+	.plat
+	{
+		font-size: 1em;
+	}
+
+	.prix
+	{
+		font-size: 1em;
+	}
+
+	.traits
+	{
+		height: 4px;
+		width: 30%;
+	}
+
+	.menu
+	{
+		line-height: 30px;
+	}
+
+
+}
+
+@media only screen and (max-width: 1050px){
+
+	.traits
+	{
+		height: 4px;
+		width: 20%;
+	}
+
+}
+
+@media only screen and (max-width: 730px){
+
+	.soustitre
+	{  
+	  	font-size: 1em;
+	} 
+
+	.titre
+	{
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+
+	.plat
+	{
+		font-size: 0.8em;
+	}
+
+	.prix
+	{
+		font-size: 0.8em;
+	}
+
+	.menu
+	{
+		line-height: 20px;
+	}
+
+	.titrebas
+	{
+		margin-bottom: 0px;
+		margin-left: 0px;
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 600px){
+
+	.menu2
+	{
+		height: 450px;
+	}
+
+	.titre
+	{
+		font-size: 1em;
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+
+	.titremenu
+	{
+		font-size: 1em;
+	}
+
+	.plat
+	{
+		font-size: 0.6em;
+	}
+
+	.prix
+	{
+		font-size: 0.6em;
+	}
+
+	.traits1
+	{
+		height: 3px;
+		width: 25%;
+	}
+
+	.traits2
+	{
+		height: 3px;
+		width: 25%;
+	}
+
+	.traits3
+	{
+		height: 3px;
+		width: 25%;
+	}
+
+	.titrebas
+	{
+		margin-bottom: 0px;
+		margin-left: 0px;
+		font-size: 1em;
+	}
+
+	.menu
+	{
+		line-height: 10px;
+		margin-bottom: 5px;
+	}
+
+}
+
+@media only screen and (max-width: 520px){
+
+	.soustitre
+	{  
+	  	font-size: 0.8em;
+	} 
+
+}
+
+@media only screen and (max-width: 400px){
+
+	.menu2
+	{
+		height: 350px;
+	}
+
+	.soustitre
+	{  
+	  	font-size: 0.5em;
+	} 
+
+	.plat
+	{
+    	font-size: 0.4em;
+	}
+
+	.prix
+	{
+    	font-size: 0.4em;
+	}
+
+	.traits1
+	{
+		height: 2px;
+		width: 25%;
+	}
+
+	.traits2
+	{
+		height: 2px;
+		width: 25%;
+	}
+
+	.traits3
+	{
+		height: 2px;
+		width: 25%;
+	}
+}

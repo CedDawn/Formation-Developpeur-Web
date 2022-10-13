@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+}
+
+.menu1 {
+  width: 1100px;
+  height: 1500px;
+  background-color: #fcdfdb;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 15px lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titremenu {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -30px;
+  font-size: 2em;
+}
+
+.fas {
+  background: -webkit-linear-gradient(left, #f04a5e, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5em;
+}
+
+.fas2 {
+  font-size: 3em;
+}
+
+.titre {
+  font-family: "Manus";
+  font-size: 4em;
+  margin-bottom: -30px;
+  margin-top: -10px;
+}
+
+.plat {
+  font-family: "Comic sans MS";
+  font-size: 1.5em;
+}
+
+.prix {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: right;
+}
+
+.menu {
+  width: 85%;
+  line-height: 50px;
+}
+
+.titrebas {
+  color: black;
+  font-family: "Manus";
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 3em;
+}
+
+.traits {
+  content: "";
+  height: 5px;
+  width: 320px;
+  background-color: black;
+}
+
+.traittitre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 85%;
+}
+
+@font-face {
+  font-family: "Manus";
+  src: url("../../media/fonts/Manus.ttf");
+}
+.soustitre {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  font-family: "Comic sans MS";
+  font-size: 2em;
+}
+
+.soustitre:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.soustitre:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 10;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  background: black;
+  transition: width 1s ease 0s, left 0.5s ease 0s;
+  width: 0;
+}
+
+@media only screen and (max-width: 1150px) {
+  .menu1 {
+    height: 150%;
+    width: 90%;
+  }
+
+  .soustitre {
+    font-size: 1.5em;
+  }
+
+  .titre {
+    font-size: 3em;
+  }
+
+  .plat {
+    font-size: 1em;
+  }
+
+  .prix {
+    font-size: 1em;
+  }
+
+  .traits {
+    height: 4px;
+    width: 30%;
+  }
+
+  .menu {
+    line-height: 30px;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .soustitre {
+    font-size: 1em;
+  }
+
+  .titre {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .plat {
+    font-size: 0.8em;
+  }
+
+  .prix {
+    font-size: 0.8em;
+  }
+
+  .menu {
+    line-height: 20px;
+  }
+
+  .fas {
+    font-size: 3em;
+    margin-top: 20px;
+  }
+
+  .fas2 {
+    font-size: 2em;
+  }
+
+  .titrebas {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .soustitre {
+    font-size: 0.8em;
+  }
+
+  .titre {
+    font-size: 1em;
+    margin-bottom: 0px;
+  }
+
+  .titremenu {
+    font-size: 1em;
+  }
+
+  .plat {
+    font-size: 0.6em;
+  }
+
+  .prix {
+    font-size: 0.6em;
+  }
+
+  .traits {
+    height: 3px;
+  }
+
+  .fas {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .fas2 {
+    font-size: 1em;
+  }
+
+  .titrebas {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .menu {
+    line-height: 10px;
+  }
+
+  .plat {
+    font-size: 0.4em;
+  }
+
+  .prix {
+    font-size: 0.4em;
+  }
+
+  .soustitre {
+    font-size: 0.5em;
+  }
+}
+
+/*# sourceMappingURL=menu1.scss.map */

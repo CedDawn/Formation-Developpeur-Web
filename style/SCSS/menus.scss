@@ -1,0 +1,336 @@
+.menus 
+{
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+
+}
+
+.menu1
+{
+	background-color: #fcdfdb;
+	margin-bottom: 10%;
+}
+
+.menu2
+{
+	background-color: #fff5fe;
+	margin-bottom: 10%;
+}
+
+.menu3
+{
+	background-color: #f9f9f9;
+}
+
+.menu4
+{
+	background-color: #fdfffd;
+}
+
+.menu-dim
+{
+	width: 600px;
+	height: 800px;
+	box-shadow: 0px 0px 15px lightgrey;
+}
+
+.fa-music
+{
+	font-size: 6em;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: -50px;
+	background: -webkit-linear-gradient(left, #f04a5e, #f78f6a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+
+.lienmenu
+{
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: all 1s ease;
+}
+
+.t-menu1
+{
+	font-family: "Manus";
+	font-size: 3em;
+	color: black;
+}
+
+.st-menu1
+{
+	font-family: "Segoe Print";
+	margin-top: -50px;
+	font-size: 5em;
+	color: black;
+}
+
+.t-menu2
+{
+	font-family: "Caffe Poster";
+	font-size: 3em;
+	background: -webkit-linear-gradient(left, #d8852e, #905bfd);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.st-menu2
+{
+	font-family: "Walbaum";
+	font-size: 5em;
+	margin-top: -20px;
+	color: #c77412;
+}
+
+.t-menu3
+{
+	font-family: "Kamila";	
+	font-size: 3em;
+	background: -webkit-linear-gradient(left, #0431df, #0887fb);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.st-menu3
+{
+	font-family: "Segoe Print";
+	margin-top: -50px;
+	font-size: 5em;
+	color: #0887fb;
+}
+
+.t-menu4
+{
+	font-family: "Breesh Light";	
+	font-size: 3em;
+	background: -webkit-linear-gradient(left, #3d9339, #bfff7e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.st-menu4
+{
+	font-family: "Segoe Print";
+	margin-top: -20px;
+	font-size: 5em;
+	color: #72bf56;
+}
+
+@font-face
+{
+	font-family: "Caffe Poster";
+	src: url("../../media/fonts/CaffePoster.ttf");
+}
+
+@font-face
+{
+	font-family: "Kamila";
+	src: url("../../media/fonts/Kamila.otf");
+}
+
+@font-face
+{
+	font-family: "Breesh Light";
+	src: url("../../media/fonts/Breesh-Light.ttf");
+}
+
+@font-face
+{
+	font-family: "Manus";
+	src: url("../../media/fonts/Manus.ttf");
+}
+
+@font-face
+{
+	font-family: "Segoe Print";
+	src: url("../../media/fonts/SegoePrint.ttf");
+}
+
+@font-face
+{
+	font-family: "Walbaum";
+	src: url("../../media/fonts/Walbaum.ttf");
+}
+
+.lienmenu:hover
+{
+	font-size: 120%;
+	opacity: 0.8;
+}
+
+
+
+@media only screen and (max-width: 1670px){
+	.menus 
+	{
+		display: flex;
+		justify-content: normal;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.menu3
+	{
+		margin-bottom: 10%;
+	}
+
+	.menu-dim
+	{
+		width: 80%;
+		height: 380px;
+	}
+
+	.lienmenu
+	{
+		transition: none;
+		margin-top: 30px;
+	}
+
+	.lienmenu:hover
+	{
+		font-size: 100%;
+		opacity: 1;
+	}
+}
+
+@media only screen and (max-width: 700px){
+
+	.t-menu1
+	{
+		font-size: 2em;
+	}
+
+	.st-menu1
+	{
+		font-size: 3em;
+	}
+
+	.t-menu2
+	{
+		font-size: 2em;
+		margin-top: -10px;
+	}
+
+	.st-menu2
+	{
+		font-size: 3em;
+	}
+
+	.t-menu3
+	{
+		font-size: 2em;
+	}
+
+	.st-menu3
+	{
+		font-size: 3em;
+	}
+
+	.t-menu4
+	{	
+		font-size: 2em;
+		margin-top: -10px;
+	}
+
+	.st-menu4
+	{
+		font-size: 3em;
+		margin-top: -50px;
+	}
+
+	.menu-dim
+	{
+		width: 80%;
+		height: 200px;
+	}
+
+	.fa-music
+	{
+		font-size: 3em;
+		margin-bottom: -40px;
+	}
+
+}
+
+@media only screen and (max-width: 400px){
+
+	.t-menu1
+	{
+		font-size: 1.2em;
+	    margin-top: 30px;
+	    margin-bottom: 30px;
+	}
+
+	.st-menu1
+	{
+		font-size: 2em;
+		margin-bottom: 0px;
+	}
+
+	.t-menu2
+	{
+		font-size: 1.2em;
+		margin-top: 0px;
+	}
+
+	.st-menu2
+	{
+		font-size: 2em;
+		margin-bottom: 0px;
+	}
+
+	.t-menu3
+	{
+		font-size: 1.2em;
+   		margin-bottom: 35px;
+	}
+
+	.st-menu3
+	{
+		font-size: 2em;
+		margin-bottom: 0px;
+	}
+
+	.t-menu4
+	{	
+		font-size: 1.2em;
+		margin-top: 10px;
+    	margin-bottom: 35px;
+	}
+
+	.st-menu4
+	{
+		font-size: 2em;
+		margin-bottom: 0px;
+	}
+
+	.menu-dim
+	{
+		width: 80%;
+		height: 150px;
+	}
+
+	.fa-music
+	{
+		font-size: 1em;
+		margin-bottom: -40px;
+	}
+
+	.lienmenu
+	{
+		margin-top: 0px;
+	}
+}

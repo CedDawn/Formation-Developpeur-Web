@@ -1,7 +1,5 @@
-# Projets OpenClassrooms - Formation Développeur Web
+# OpenClassrooms Formation Développeur Web - Projet 2 : Dynamisez une page web avec des animations CSS
 
-Hey salut, ici se sont les différents projets que j'ai pu faire durant ma formation chez OpenClassrooms
+Projet n°3 de la formation Développeur Web chez OpenClassrooms
 
-Chaque projet a sa branche
-
-Bonne visite
+Le but était de reproduire en HTML/CSS et Sass, un site affichant des menus de différents restaurants à l'aide d'un modèle.

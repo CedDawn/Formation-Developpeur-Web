@@ -1,0 +1,328 @@
+body
+{
+	margin: 0;
+}
+
+.menu4
+{
+	width: 1000px;
+	height: 1500px;
+	background-color: #fdfffd;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	box-shadow: 0px 0px 15px lightgrey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.titremenu
+{
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: -30px;
+	font-size: 2em;
+}
+
+.traits1
+{
+	content: "";
+	height: 5px;
+	width: 250px;
+	background: linear-gradient(to right, #41963c, #bff88b);
+}
+
+.traits2
+{
+	content: "";
+	height: 5px;
+	width: 250px;
+	background: linear-gradient(to left, #41963c, #bff88b);
+}
+
+.traittitre
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	width: 85%; 
+}
+
+.titre
+{
+	font-family: "Breesh Light";	
+	font-size: 5em;
+	margin-top: -80px;
+	background: -webkit-linear-gradient(left, #3d9339, #bfff7e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.menu
+{
+	width: 80%;
+	line-height: 70px;
+	margin-bottom: 50px;
+	font-family: "Segoe Print";
+}
+
+.soustitre
+{
+	font-family: "Segoe Print";
+	display: inline-block;
+  	padding: 10px;
+  	position: relative;
+}
+
+.soustitre:hover:after {
+  width:100%;
+  left: 0;
+}
+.soustitre:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 10;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  background: black;
+  transition: width 1s ease 0s, left 0.5s ease 0s;
+  width: 0;
+}
+
+.plat
+{
+	font-size: 1.1em;
+}
+
+.prix
+{
+	font-size: 1.5em;
+	text-align: right;
+}
+
+@font-face
+{
+	font-family: "Segoe Print";
+	src: url("../../media/fonts/SegoePrint.ttf");
+}
+
+@font-face
+{
+	font-family: "Breesh Light";
+	src: url("../../media/fonts/Breesh-Light.ttf");
+}
+
+@media only screen and (max-width: 1150px){
+
+	.menu4
+	{
+		height: 150%;
+		width: 90%;
+	}
+
+	.soustitre
+	{  
+	  	font-size: 1.5em;
+		margin-top: 50px;
+		margin-bottom: 40px;
+	} 
+
+	.titre
+	{
+		font-size: 3em;
+		margin-top: 50px;
+	}
+
+	.plat
+	{
+		font-size: 1em;
+	}
+
+	.prix
+	{
+		font-size: 1em;
+	}
+
+	.traits
+	{
+		height: 4px;
+		width: 30%;
+	}
+
+	.menu
+	{
+		line-height: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 1020px){
+
+	.soustitre
+	{  
+	  	font-size: 1em;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	} 
+
+}
+
+@media only screen and (max-width: 900px){
+
+	.plat
+	{
+		font-size: 0.8em;
+	}
+
+	.traits1
+	{
+		height: 3px;
+		width: 25%;
+	}
+
+	.traits2
+	{
+		height: 3px;
+		width: 25%;
+	}
+
+}
+
+@media only screen and (max-width: 730px){
+
+	.soustitre
+	{  
+	  	font-size: 1em;
+	} 
+
+	.titre
+	{
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+
+	.plat
+	{
+		font-size: 0.8em;
+	}
+
+	.prix
+	{
+		font-size: 0.8em;
+	}
+
+	.menu
+	{
+		line-height: 20px;
+	}
+
+	.titrebas
+	{
+		margin-bottom: 0px;
+		margin-left: 0px;
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	
+	.menu4
+	{
+		height: 500px;
+	}
+
+	.soustitre
+	{  
+	  	font-size: 0.8em;
+	} 
+
+	.titre
+	{
+		font-size: 1em;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	.titremenu
+	{
+		font-size: 1em;
+	}
+
+	.plat
+	{
+		font-size: 0.5em;
+	}
+
+	.prix
+	{
+		font-size: 0.6em;
+	}
+
+	.traittitre
+	{
+		height: 40px;
+	}
+
+	.titrebas
+	{
+		margin-bottom: 0px;
+		margin-left: 0px;
+		font-size: 1em;
+	}
+
+	.menu
+	{
+		line-height: 10px;
+		margin-bottom: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 400px){
+
+	.menu
+	{
+		line-height: 10px;
+	}
+
+	.menu4
+	{
+		height: 350px;
+	}
+
+	.soustitre
+	{  
+	  	font-size: 0.5em;
+	} 
+
+	.plat
+	{
+    	font-size: 0.4em;
+	}
+
+	.prix
+	{
+    	font-size: 0.4em;
+	}
+
+	.traits1
+	{
+		height: 2px;
+		width: 25%;
+	}
+
+	.traits2
+	{
+		height: 2px;
+		width: 25%;
+	}
+
+}

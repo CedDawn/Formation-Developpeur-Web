@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-color: #579c87;
+  margin: 0;
+  border: solid #a1c181;
+  border-width: 0px 0px 1px 0px;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .logo {
+    width: 80%;
+  }
+
+  .header {
+    height: 120px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header {
+    height: 80px;
+  }
+}
+
+/*# sourceMappingURL=header.scss.map */
