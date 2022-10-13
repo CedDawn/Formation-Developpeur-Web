@@ -5,7 +5,7 @@ Projet n°7 et dernier de la formation Développeur Web chez OpenClassrooms.
 Le but était de réaliser un réseau social à partir de zéro avec les compétances acquises tout au long de la formation.
 
 Pour installer le projet sur votre machine : 
-- git clone <lien du repo>
+- git clone "lien du repo"
 
 Pour executer le backend chez vous, il vous faudra :
 - Installer Node.js
