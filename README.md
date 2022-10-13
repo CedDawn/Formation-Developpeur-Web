@@ -1,7 +1,5 @@
-# Projets OpenClassrooms - Formation Développeur Web
+# OpenClassrooms Formation Développeur Web - Projet 4 : Optimisez un site web existant
 
-Hey salut, ici se sont les différents projets que j'ai pu faire durant ma formation chez OpenClassrooms
+Projet n°4 de la formation Développeur Web chez OpenClassrooms
 
-Chaque projet a sa branche
-
-Bonne visite
+Le but était de corriger et d'améliorer le contenu d'un site web fait en amont en y mettant en place de bonnes pratiques de SEO afin d'obtenir de meilleurs résultats en terme de référencement.
