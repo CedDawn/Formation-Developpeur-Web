@@ -1,7 +1,17 @@
-# Projets OpenClassrooms - Formation Développeur Web
+# OpenClassrooms Formation Développeur Web - Projet 7 : Créez un réseau social d’entreprise
 
-Hey salut, ici se sont les différents projets que j'ai pu faire durant ma formation chez OpenClassrooms
+Projet n°7 et dernier de la formation Développeur Web chez OpenClassrooms.
 
-Chaque projet a sa branche
+Le but était de réaliser un réseau social à partir de zéro avec les compétances acquises tout au long de la formation.
 
-Bonne visite
+Pour installer le projet sur votre machine : 
+- git clone <lien du repo>
+
+Pour executer le backend chez vous, il vous faudra :
+- Installer Node.js
+- Éxecuter "npm install" dans un invité de commande à la racine du dossier "Back"
+- Créer un fichier "images" à la racine du dossier "Back"
+- Remplir le .env.test en fonction de votre base de données puis le renommer en .env
+- Démarrer le serveur avec la commande "node server"
+
+Vous pouvez ensuite avoir accès au site à partir du fichier index.html dans le dossier "Front" !
